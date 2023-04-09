@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:195px;">
+  <a href="main.html" class="w3-bar-item w3-button">메인 홈</a>
+  <button class="w3-button w3-block w3-left-align" onclick="myAccFunc('demo1')">
+  홈페이지관리 <i class="fa fa-caret-down"></i>
+  </button>
+  <div id="demo1" class="w3-hide w3-white w3-card">
+    <button class="w3-button w3-block w3-left-align" onclick="myAccFunc('demo2')">
+      법령정보 <i class="fa fa-caret-down"></i>
+    </button>
+    <div id="demo2" class="w3-hide w3-white w3-card">
+      <a href="001.html" class="w3-bar-item w3-button">법령분야부호</a>
+      <a href="002.html" class="w3-bar-item w3-button">법령구분부호</a>
+      <a href="003.html" class="w3-bar-item w3-button">법령업무구분</a>
+      <a href="004.html" class="w3-bar-item w3-button">법령부호</a>
+      </div>
+      <button class="w3-button w3-block w3-left-align" onclick="myAccFunc('demo3')">
+      정보사이트 <i class="fa fa-caret-down"></i>
+    </button>
+    <div id="demo3" class="w3-hide w3-white w3-card">
+      <a href="005.html" class="w3-bar-item w3-button">가져오기</a>
+      </div>
+       <button class="w3-button w3-block w3-left-align" onclick="myAccFunc('demo4')">
+      법령개정정보 <i class="fa fa-caret-down"></i>
+    </button>
+    <div id="demo4" class="w3-hide w3-white w3-card">
+      <a href="#" class="w3-bar-item w3-button">법령개정정보</a>
+      <a href="#" class="w3-bar-item w3-button">법령원본교체</a>
+      <a href="#" class="w3-bar-item w3-button">법령원본미결</a>
+      <a href="#" class="w3-bar-item w3-button">관리별표개정미등록법령</a>
+      <a href="#" class="w3-bar-item w3-button">관리별표개정등록관리</a>
+      </div>
+       <button class="w3-button w3-block w3-left-align" onclick="myAccFunc('demo5')">
+      법령조문관리 <i class="fa fa-caret-down"></i>
+    </button>
+    <div id="demo5" class="w3-hide w3-white w3-card">
+      <a href="#" class="w3-bar-item w3-button">개정조문미결목록</a>
+      <a href="#" class="w3-bar-item w3-button">개정조문관리</a>
+      <a href="#" class="w3-bar-item w3-button">시행일미정조문관리</a>
+      <a href="#" class="w3-bar-item w3-button">시행일문자조문관리</a>
+      <a href="#" class="w3-bar-item w3-button">법령및별표근거조항관리</a>
+      </div>
+       <button class="w3-button w3-block w3-left-align" onclick="myAccFunc('demo6')">
+      별표내용관리 <i class="fa fa-caret-down"></i>
+    </button>
+    <div id="demo6" class="w3-hide w3-white w3-card">
+      <a href="#" class="w3-bar-item w3-button">미결목록</a>
+      <a href="#" class="w3-bar-item w3-button">개정별표내용관리</a>
+      <a href="#" class="w3-bar-item w3-button">내용별별표작업</a>
+      <a href="#" class="w3-bar-item w3-button">기본,잠정관세율</a>
+      <a href="#" class="w3-bar-item w3-button">협정요약서</a>
+     <a href="#" class="w3-bar-item w3-button">CO발급기관정보</a>
+     <a href="#" class="w3-bar-item w3-button">인증수출자인증번호체계</a>
+     <a href="#" class="w3-bar-item w3-button">원산지결정기준</a>
+      </div>
+       <button class="w3-button w3-block w3-left-align" onclick="myAccFunc('demo7')">
+      미결내용 <i class="fa fa-caret-down"></i>
+    </button>
+    <div id="demo7" class="w3-hide w3-white w3-card">
+      <a href="#" class="w3-bar-item w3-button">법령원본미결</a>
+      <a href="#" class="w3-bar-item w3-button">관리별표개정미등록법령</a>
+      <a href="#" class="w3-bar-item w3-button">개정조문미결목록</a>
+      <a href="#" class="w3-bar-item w3-button">시행일미정조문관리</a>
+      <a href="#" class="w3-bar-item w3-button">별표입력미결목록</a>
+     <a href="#" class="w3-bar-item w3-button">감면분납부호미결목록</a>
+     <a href="#" class="w3-bar-item w3-button">참조문서-조문부호</a>
+      </div>
+  <a href="#" class="w3-bar-item w3-button">판례,유권해석</a>
+  <a href="#" class="w3-bar-item w3-button">참조문서관리</a>
+       <button class="w3-button w3-block w3-left-align" onclick="myAccFunc('demo8')">
+      품목분류 <i class="fa fa-caret-down"></i>
+    </button>
+    <div id="demo8" class="w3-hide w3-white w3-card">
+      <a href="#" class="w3-bar-item w3-button">품목분류사례</a>
+      <a href="#" class="w3-bar-item w3-button">사진크기조정</a>
+</div>
+
+      </div>
+       <button class="w3-button w3-block w3-left-align" onclick="myAccFunc('demo9')">
+      수출입업무관리 <i class="fa fa-caret-down"></i>
+    </button>
+    <div id="demo9" class="w3-hide w3-white w3-card">
+      <a href="#" class="w3-bar-item w3-button">업체별 관리메뉴얼</a>
+      <a href="#" class="w3-bar-item w3-button">공통메뉴얼</a>
+      </div>
+      </div>
+      
+
+<div class="w3-container" style="margin-left:195px">
+<h2>티비엔 메뉴얼 홈페이지입니다.</h2>
+<p>블럭세상 수입절차</p>
+<hr>
+<p>
+    <블럭세상 수입>
+    <p> 1. CO, BL, IV, PL 등 선적서류 받으면 수입신고서 작성</p>
+
+    <p> 2. 이전 수입신고서 참고하여 작성하기.</p>
+    - 징수형태 :　[11]신고 수리전 납부<br>
+    - 계약인도조건 : CFR(따로 명시되지 않으면)<br>
+    - 컨테이너번호 기입<br>
+   <p> 3. 신고서 첨부파일에 CO(특혜용 원산지확인용), BL, IV PL 첨부하기</p>
+   <p> 4. 수입신고서 제출 후 협정관세 적용신청서 작성 후 제출</p>
+    
+    [ 4-1. [수입화물진행정보]에서 관리대상지정여부:Y 라면 X-RAY 검사 대상임<br>
+    4-2. 장치장홈페이지 접속하여 X-RAY검사 청구서 다운로드<br>
+    EX) 한국국제터미널 주식회사-정산조회-MBL입력-청구서 저장 ]
+    
+    <p>5. 수입통관료, 물품과세액, 운송료, 검사료 등 통관료정산서 작성하여 
+    정산서와 각 인보이스 함께 블록세상에 전송<br>(계좌:하나은행(대리님확인))
+    (송금받아야 우리쪽에서 이체가능)</p>
+    [ 5-1. 통관료정산받으면 X-RAY비용 송금후 홀드해제요청서와 이체증 함께 이메일 송부<br>
+    5-2. 관리대상지정여부:투시해제 로 바뀌면, 검사끝난 것 ]
+    
+    <p>6. [처리현황]에서 결과통보(결재)받으면 납부서발행 가능
+    <p>7. 물품가액 납부한 후, 관세납부확인서(대리님이 주실 것)와 세금계산서(유니패스) 저장</p>
+    <p></p>8. 수리완료되면 수입신고필증, 수입세금계산서, 관세납부확인서 블록세상에 송부
+      포워더에 운임비이체확인증 등 송부(DO발행해줌)</p>
+    
+    
+    *모든 세금계산서 발행은 블록세상 앞으로!  - 유니패스에서 세금계산서(개별)조회해서 인쇄
+<br>    
+    
+    EXWJ와 같이 운임,보함이 포함되어있지않은 인도조건의 경우
+    운임인보이스를 받아서 신고서에 운임비 및 보험비 기입해야함.<br>
+    그러면 인보이스상의 물품금액 + 운임비 = 신고금액</p>
+</div>
+
+<script>
+function myAccFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-green";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}
+
+function myDropFunc() {
+  var x = document.getElementById("demoDrop");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-green";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}
+</script>
+
+</body>
+</html>
